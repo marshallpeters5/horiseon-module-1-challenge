@@ -12,6 +12,10 @@ Horiseon is an Online Reputation Management site that works with Search Engine O
 
 See description. Please contact us for more info.
 
+## Screenshot
+
+A screenshot of the live webpage can be found in ./assets/images/horiseon-screenshot-proj.png
+
 ## Lisence
 
 [MIT](https://choosealicense.com/licenses/mit/)
