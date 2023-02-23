@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Added a header element, removed .header class */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,12 +25,11 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Reduced the navigation area into one class instead of 4. */
+/* Reduced the navigation area into one class and an element selector instead of 4. */
 nav {
     float: right;
     padding-top: 15px;
 }
-
 
 .navbar {
     margin-inline: 22px;
@@ -46,7 +46,7 @@ nav {
     }
 }
 
-/* Made the #hero id more responsive */
+/* Made the .hero class correctly into an ID element and made the #hero id more responsive */
 #hero {
     height: 50% auto;
     width: 100%;
@@ -56,7 +56,7 @@ nav {
 }
 
 /* Reordered everything below this message to accurately reflect its location in the corresponding HTML code.
- Renamed a large number of classes and removed several others outright.*/
+ Renamed a large number of classes into more semantic elements such as <main> and <aside>. Removed several others outright.*/
 main {
     width: 75%;
     display: inline-block;
@@ -73,8 +73,8 @@ main {
     margin-left: 25px;
 }
 
-/* Now using the .article class. */
-.article {
+/* Now using the .section class. */
+.section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,11 +83,11 @@ main {
     color: #ffffff;
 }
 
-.article img {
+.section img {
     max-height: 200px;
 }
 
-.article h2 {
+.section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
